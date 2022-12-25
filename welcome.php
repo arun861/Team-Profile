@@ -57,8 +57,8 @@ while($rows=mysqli_fetch_array($result)){
 </div>
 <div id="login">
 <div id="login-sg">
-<div id="st"><a href="logout.php" id="st-btn">Sign Out</a></div>
-<div id="st"><a href="deleteac.php" id="st-btn">Delete Account</a></div>
+<div id="st"><a href="logout.php" id="btnlogout">Sign Out</a></div>
+<div id="st"><a href="deleteac.php" id="btndel">Delete Account</a></div>
 </div>
 </div>
 <?php 
