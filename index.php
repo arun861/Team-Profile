@@ -11,7 +11,7 @@
  <nav>
   <ul>
    <li><a href="https://SeniorProfiles.com">Senior profiles</a></li>
-   <li><a href="https://Seniorprofiles.com/web/student">Profile Builder</a></li>
+   <li><a id="temp" href="https://Seniorprofiles.com/web/student">Profile Builder</a></li>
   </ul>
  </nav>
 </header>
@@ -43,27 +43,27 @@ echo ' <div id="reg-head-fail" class="headrg">Registration Failed! <br> Error: '
 <div align="left" id="tb-name">First&nbsp;Name:</div>
 </td>
 <td width="171">
-<input type="text" name="fname" id="tb-box"/>
+<input type="text" name="fname" id="fname"/>
 </td>
 </tr>
 <tr>
 <td class="t-1"><div align="left" id="tb-name">Last&nbsp;Name:</div></td>
-<td><input type="text" name="lname" id="tb-box"/></td>
+<td><input type="text" name="lname" id="lname"/></td>
 </tr>
 <tr>
 <td class="t-1"><div align="left" id="tb-name">Email:</div></td>
-<td><input type="text" id="tb-box" name="address" /></td>
+<td><input type="text" id="email" name="address" /></td>
 </tr>
 <tr>
 <td class="t-1"><div align="left" id="tb-name">Username:</div></td>
-<td><input type="text" id="tb-box" name="username" /></td>
+<td><input type="text" id="username" name="username" /></td>
 </tr>
 <tr>
 <td class="t-1"><div align="left" id="tb-name">Password:</div></td>
-<td><input id="tb-box" type="password" name="password" /></td>
+<td><input id="password" type="password" name="password" /></td>
 </tr>
 </table>
-<div id="st"><input name="submit" type="submit" value="Submit" id="st-btn"/></div>
+<div id="st"><input name="submit" type="submit" value="Submit" id="btnsubmit"/></div>
 </form>
 <div id="reg-bottom" class="btmrg">Copyright &copy; 2022 Seniorprofiles.com</div>
 </div>
@@ -83,14 +83,14 @@ echo ' <div id="reg-head-fail" class="headrg">Login Failed!, Invalid Credentials
 <table border="0" align="center" cellpadding="2" cellspacing="0">
 <tr id="lg-1">
 <td class="tl-1"><div align="left" id="tb-name">Username:</div></td>
-<td><input type="text" id="tb-box" name="username" /></td>
+<td><input type="text" id="tb-box6" name="username" /></td>
 </tr>
 <tr id="lg-1">
 <td class="tl-1"><div align="left" id="tb-name">Password:</div></td>
-<td><input id="tb-box" type="password" name="password" /></td>
+<td><input id="tb-box7" type="password" name="password" /></td>
 </tr>
 </table>
-<div id="st"><input name="submit" type="submit" value="Login" id="st-btn"/></div>
+<div id="st"><input name="submit" type="submit" value="Login" id="btnlogin"/></div>
 </form>
 <div id="reg-bottom" class="btmrg">Copyright &copy; 2022 SeniorProfiles.com</div>
 </div>
