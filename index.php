@@ -10,13 +10,13 @@
 <header>
  <nav>
   <ul>
-   <li><a href="https://SeniorProfiles.com">Senior profiles</a></li>
-   <li><a id="temp" href="https://Seniorprofiles.com/web/student">Profile Builder</a></li>
+   <li><a href="https://freshersprofile.com">Fresher profiles</a></li>
+   <li><a id="temp" href="https://freshersprofile.com/web/student">Profile Builder</a></li>
   </ul>
  </nav>
 </header>
 <div id="center">
-<div id="center-set"> - By Arun
+<div id="center-set"> - By Santhosh
 <div id="signup">
 <div id="signup-st">
 <div align="center">
@@ -65,7 +65,7 @@ echo ' <div id="reg-head-fail" class="headrg">Registration Failed! <br> Error: '
 </table>
 <div id="st"><input name="submit" type="submit" value="Submit" id="btnsubmit"/></div>
 </form>
-<div id="reg-bottom" class="btmrg">Copyright &copy; 2022 Seniorprofiles.com</div>
+<div id="reg-bottom" class="btmrg">Copyright &copy; 2022 freshersprofile.com</div>
 </div>
 </div>
 <div id="login">
@@ -92,11 +92,11 @@ echo ' <div id="reg-head-fail" class="headrg">Login Failed!, Invalid Credentials
 </table>
 <div id="st"><input name="submit" type="submit" value="Login" id="btnlogin"/></div>
 </form>
-<div id="reg-bottom" class="btmrg">Copyright &copy; 2022 SeniorProfiles.com</div>
+<div id="reg-bottom" class="btmrg">Copyright &copy; 2022 freshersprofile.com</div>
 </div>
 </div>
 </div>
 </div>
-<div id="footer"><p> Copyright &copy; 2022 SeniorProfiles.com </p></div>
+<div id="footer"><p> Copyright &copy; 2022 freshersprofile.com </p></div>
 </body>
 </html>
